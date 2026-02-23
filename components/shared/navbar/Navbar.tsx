@@ -54,7 +54,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full font-veles text-md flex justify-between items-center text-white p-5 glass-navbar relative z-50">
+      <nav className="w-full font-veles text-md flex justify-between items-center text-white p-5 glass-navbar relative z-200">
         <ul className='hidden sm:flex justify-center items-center gap-10 h-full'>
           <li><Link href={'/'} className='font-metropolis text-2xl text-white hover:text-purple-500 transition-all duration-500'>O - Chat</Link></li>
           <li><Link href={'/articles'} className='hover:text-purple-500 transition-all duration-500'>Blogs</Link></li>
